@@ -55,7 +55,7 @@
             &kp LSHFT  &kp LCTRL  &kp LALT   &kp LGUI   &mkp MB2       &kp LEFT   &kp DOWN   &kp UP     &kp RIGHT   &none
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│  BT0     │  BT1     │  BT2     │          │  BT CLEAR│   │          │          │          │          │          │
-            &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &none &bt BT_CLR    &kp K_NEXT &kp K_VOL_UP &kp K_VOL_DN &kp K_PP &none
+            &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &none &bt BT_CLR    &kp K_NEXT &kp K_VOL_DN &kp K_VOL_UP &kp K_PP &none
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
                                              &none      &none          &none      &none 
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
