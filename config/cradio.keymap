@@ -54,8 +54,8 @@
         //│  SHIFT   │  CTRL    │  ALT     │  GUI     │  Mouse 2 │   │  LEFT    │  DOWN    │  UP      │  RIGHT   │          │
             &kp LSHFT  &kp LCTRL  &kp LALT   &kp LGUI   &mkp MB2       &kp LEFT   &kp DOWN   &kp UP     &kp RIGHT   &none
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
-        //│  BT0     │  BT1     │  BT2     │          │  BT CLEAR│   │          │          │          │          │          │
-            &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &none &bt BT_CLR    &kp K_NEXT &kp K_VOL_DN &kp K_VOL_UP &kp K_PP &none
+        //│          │          │          │          │          │   │          │          │          │          │          │
+            &none      &none      &none      &none      &none          &kp K_NEXT &kp K_VOL_DN &kp K_VOL_UP &kp K_PP &none
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
                                              &none      &none          &none      &none 
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
@@ -90,8 +90,8 @@
         //│  SHIFT   │  CTRL    │  ALT     │  LGUI    │  ESC     │   │  ~       │  _       │  +       │  {       │  }       │
             &kp LSHFT  &kp LCTRL  &kp LALT   &kp LGUI   &kp ESC        &kp TILDE  &kp UNDER  &kp PLUS   &kp LBRC   &kp RBRC
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
-        //│          │          │          │          │  TAB     │   │  `       │  '       │  "       │  [       │  ]       │
-            &none      &none      &none      &none      &kp TAB        &kp GRAVE  &kp SQT    &kp DQT    &kp LBKT   &kp RBKT
+        //│ BT CLEAR │ BT 0     │ BT 1     │ BT 2     │  TAB     │   │  `       │  '       │  "       │  [       │  ]       │
+            &bt BT_CLR &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 3 &kp TAB        &kp GRAVE  &kp SQT    &kp DQT    &kp LBKT   &kp RBKT
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
                                              &none      &none          &none      &none
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
